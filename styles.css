@@ -1,1 +1,58 @@
-/* your code here */
+      footer {
+        background: #111;
+        color: #fff;
+        padding: 30px 20px;
+        font-family: Arial, sans-serif;
+      }
+      .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .logo-details .logo_name {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .media-icons {
+        display: flex;
+        gap: 12px;
+      }
+      .media-icons a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 18px;
+        transition: 0.3s;
+      }
+      /* Icon-wise background colors */
+      .media-icons a.facebook {
+        background: #3b5998;
+      }
+      .media-icons a.twitter {
+        background: #1da1f2;
+      }
+      .media-icons a.instagram {
+        background: radial-gradient(
+          circle at 30% 30%,
+          #f58529,
+          #dd2a7b,
+          #8134af,
+          #515bd4
+        );
+      }
+      .media-icons a.linkedin {
+        background: #0077b5;
+      }
+      .media-icons a.youtube {
+        background: #ff0000;
+      }
+
+      /* Hover Effect */
+      .media-icons a:hover {
+        opacity: 0.8;
+        transform: scale(1.1);
+      }
